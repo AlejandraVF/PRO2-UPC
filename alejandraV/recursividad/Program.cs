@@ -91,7 +91,34 @@
                 Console.WriteLine("DESPUES => NroAux: " + NroAux);
             }
         }
+        public static void GenerarSerieV1Iterativo(int N)
+        {
+            int i = 1;
+            while (N > 0)
+            {
+                int serie = i + 5;
+                Console.WriteLine("Serie: " + serie);
+                i = serie;
+                N = N - 1;
+            }
+        }
 
+        public static void GenerarSerieV1Recursivo(int N)
+        {
+            int i = 1;
+            if (N == 0)
+            {
+                return;
+            }
+            else
+            {
+
+                int serie = i + 5;
+                Console.WriteLine("Serie: " + serie);
+                i = serie;
+                GenerarSerieV1Recursivo(N - 1);
+            }
+        }
 
 
     }
