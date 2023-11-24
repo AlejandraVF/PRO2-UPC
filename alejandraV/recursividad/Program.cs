@@ -120,6 +120,30 @@
             }
         }
 
+        public static void MostrarDigMultiplosMIterativo(int N, int M)
+        {
+            int NroAux = N;
+            while (NroAux != 0)
+            {
+                int dig = NroAux % 10;
+                Console.WriteLine("Dig: " + dig);
+                NroAux = NroAux / 10;
+            }
+        }
 
     }
+
+    public static void MostrarDigMultiplosMIterativo1(int N, int M)
+    {
+        for (int i = 1; i <= N; i++)
+        {
+            if (i % M == 0)
+            {
+                Console.WriteLine("Número: " + i);
+
+            }
+        }
+    }
+
+
 }
