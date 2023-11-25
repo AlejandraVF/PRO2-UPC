@@ -3,17 +3,9 @@ namespace Prog2
 {
     public class Program
     {
-        /*public static void Main(string[] args)
-
-        {
-            int[,] matriz = SegundoParcial.GenerarMatrizSerie();
-
-            Console.WriteLine("Matriz generada:");
-            SegundoParcial.MostrarMatriz(matriz);
-        }*/
         /*static void Main()
         {
-            int N = 12345; // Puedes cambiar el valor de N según tus necesidades
+            int N = 12345; 
             SegundoParcial.MostrarDigImparesRecursivo(N);
         } */
 

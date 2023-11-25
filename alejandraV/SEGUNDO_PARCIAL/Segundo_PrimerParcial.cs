@@ -1,36 +1,6 @@
 ﻿
 public class SegundoParcial
 {
-    /*public static int[,] GenerarMatrizSerie()
-    {
-        int[,] matriz = new int[5, 5];
-        int valor = 1;
-
-        for (int col = 0; col < 5; col++)
-        {
-            for (int fila = 0; fila < 5; fila++)
-            {
-                matriz[fila, col] = valor++;
-                if (valor > 7)
-                    valor = 1;
-            }
-        }
-
-        return matriz;
-    }
-
-    public static void MostrarMatriz(int[,] matriz)
-    {
-        for (int fila = 0; fila < matriz.GetLength(0); fila++)
-        {
-            for (int col = 0; col < matriz.GetLength(1); col++)
-            {
-                Console.Write(matriz[fila, col] + " ");
-            }
-            Console.WriteLine();
-        }
-    }
-    */
 
     //Convertir el algoritmo iterativo a su equivalente de manera recursiva
 
